@@ -1,8 +1,8 @@
+PyPDF2==1.26.0
 fastapi[all]
-openai
+openai==1.16.0
 python-dotenv
 pydantic==1.*
-langchain
+langchain==0.1.14
 faiss-cpu
 tiktoken
-PyPDF2
