@@ -1,3 +1,4 @@
+openpyxl
 PyPDF2==1.26.0
 fastapi[all]
 openai==1.16.0
