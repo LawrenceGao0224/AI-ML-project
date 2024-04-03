@@ -15,7 +15,7 @@ st.set_page_config(
         page_title="PDFReader", page_icon=":bird:")    
 st.header("PDFReader with QA :bird:")
 
-file = st.file_uploader("Pick a file")
+file = st.file_uploader("Pick a PDF file...")
 # location of the pdf file/files.
 if file:    
     reader = PdfReader(file)
@@ -43,12 +43,12 @@ if file:
     from langchain.llms import OpenAI
     chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
-    message = st.text_area("customer message")
+    message = st.text_area("What's your questions?")
     docs = docsearch.similarity_search(message)
     #chain.run(input_documents=docs, question=message)
 
     if message:
-        st.write("Generating best practice message...")
+        st.write("Generating best practice answer...")
 
         result = chain.run(input_documents=docs, question=message)
 
