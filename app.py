@@ -15,7 +15,7 @@ st.set_page_config(
         page_title="PDFReader", page_icon=":bird:")    
 st.header("PDFReader with QA :bird:")
 
-file = st.file_uploader("Pick a PDF file...")
+file = st.file_uploader("Pick a PDF file (This model's maximum context length is 4097 tokens)...")
 # location of the pdf file/files.
 if file:    
     reader = PdfReader(file)
