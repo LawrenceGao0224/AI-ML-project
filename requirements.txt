@@ -1,5 +1,5 @@
 openpyxl>=2.5.8
-PyPDF2==1.26.0
+PyPDF2<3.0
 fastapi[all]
 openai==1.16.0
 python-dotenv
