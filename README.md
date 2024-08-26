@@ -1,16 +1,24 @@
 # AI / ML project collection
 
 ## 1. Generative AI
-## 2. LLM model
-## 3. RAG-base workflow and project
-## 4. Fine-tune and model evaluation: AI girlfriend, how to fine tune and evalute
-## 5. data preprocessing
-## 6. feature engineering
-## 7. BQML(GCP big query ML)
-## 8. one-hot encoding, label data normalize
-## 9. Computer vision
-## 10. GPUs
-## 11. Speech recongnition
-## 12. Search recommendation
-## 13. Advertising
-## 14. Pytorch, GBDT
+What is Generative AI?
+[Diagram] [Workflow]
+what makes it popular and different?
+How can we achieve it? Tools: PyTorch, python ,Colab, Jupyter...
+Where can we use it?
+Use case (RAG-base workflow and project), prompt engineering(AI girlfriend)
+Algorithms 
+Models - LLM (Attention is all you need)
+
+## 2. Fine-tune and model evaluation: how to fine tune and evalute
+## 3. data preprocessing 
+one-hot encoding, label data normalize
+
+## 4. feature engineering
+## 5. BQML(GCP big query ML)
+## 6. Computer vision
+## 7. GPUs
+## 8. Speech recongnition
+## 9. Search recommendation
+## 10. Advertising
+## 11. GBDT
