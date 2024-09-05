@@ -2,8 +2,9 @@
 
 ## 1. Generative AI
 ### What is Generative AI?
-It is used for generating some new contents or creative stories even images.
-
+It is used for generating some new contents or creative stories even images. That also makes it popular and unique in many areas.
+![flow](https://www.google.com/url?sa=i&url=https%3A%2F%2Fprakat.com%2Fdata-analytics%2Fquick-guide-to-ai-gai-chatgpt-and-others%2F&psig=AOvVaw0ikGdpGDnCzowLlBq3uEx2&ust=1725606461811000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCu3I2fq4gDFQAAAAAdAAAAABAE)
+![circle](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fgenerative-ai-future-content-abhinay-panday-k9u6f&psig=AOvVaw0ikGdpGDnCzowLlBq3uEx2&ust=1725606461811000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCu3I2fq4gDFQAAAAAdAAAAABAT)
 ### How to achieve (algorithms)?
 #### Task Specific Gen AI
 1. Generative Adversarial Network(GAN)
@@ -30,13 +31,29 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 6. BLOOM
 7. BERT from Google
 
-[Diagram] [Workflow]
-what makes it popular and different?
-How can we achieve it? Tools: PyTorch, python ,Colab, Jupyter...
-Where can we use it?
-Use case (RAG-base workflow and project), prompt engineering(AI girlfriend)
-Algorithms 
-Models - LLM (Attention is all you need)
+### Generative AI Workflow
+1. Data gathering
+2. Data preprocessing and cleaning
+3. Model Architecture selecting
+4. Model Implementing
+5. Model training
+6. Evaluating and Optimizing
+7. Fine-tuning and Iterate
+
+### How can we achieve it? Tools: PyTorch, python ,Colab, Jupyter Notebook...
+1. PyTorch and Tensorflow
+2. Jupyter Notebook
+3. HuggingFace
+4. Pandas
+5. OpenCV
+6. Scikit-learn
+7. AWS, Terraform, GitHub
+
+### Where can we use it?
+1. RAG
+2. Prompt engineering
+3. Fine-tuning
+
 
 ## 2. Fine-tune and model evaluation: how to fine tune and evalute
 ## 3. data preprocessing 
