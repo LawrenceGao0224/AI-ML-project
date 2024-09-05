@@ -13,7 +13,8 @@ It is used for generating some new contents or creative stories even images. Tha
 source pic: AWS-GAN
 2. Diffusion model
 Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後學習透過反轉這個加noising的過程來恢復數據。訓練後，我們可以透過將隨機抽樣的noise通過學習得到的denoising過程來生成數據。
-3. Variational Autoencoder(VAE)
+![Diffusion](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/DDPM.png)
+4. Variational Autoencoder(VAE)
 透過encoder將輸入的圖片壓縮到很小，稱作Bottleneck，再透過decoder將圖片還原成原本大小，其學習目標是讓原始跟重建後的圖片一模一樣。
 ![VAE](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*PyUPcuHK9Nf_1X1f.png)
 
