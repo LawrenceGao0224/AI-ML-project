@@ -3,8 +3,8 @@
 ## 1. Generative AI
 ### What is Generative AI?
 It is used for generating some new contents or creative stories even images. That also makes it popular and unique in many areas.
-![flow](https://www.google.com/url?sa=i&url=https%3A%2F%2Fprakat.com%2Fdata-analytics%2Fquick-guide-to-ai-gai-chatgpt-and-others%2F&psig=AOvVaw0ikGdpGDnCzowLlBq3uEx2&ust=1725606461811000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCu3I2fq4gDFQAAAAAdAAAAABAE)
-![circle](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fgenerative-ai-future-content-abhinay-panday-k9u6f&psig=AOvVaw0ikGdpGDnCzowLlBq3uEx2&ust=1725606461811000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCu3I2fq4gDFQAAAAAdAAAAABAT)
+![flow](https://prakat.com/wp-content/uploads/2023/05/AI-chart.png)
+![circle](https://media.licdn.com/dms/image/v2/D4D12AQElpBj-AH3Fdw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1715826672831?e=1730937600&v=beta&t=sAyNkjE_MEE1v7i19v-9FktzPhNtWwKwNkAqaQONW5A)
 ### How to achieve (algorithms)?
 #### Task Specific Gen AI
 1. Generative Adversarial Network(GAN)
