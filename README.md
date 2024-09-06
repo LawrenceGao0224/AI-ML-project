@@ -62,8 +62,28 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 4. Fine-tuning: 讓LLM學習新的或特定領域知識，就像更新手機APP一樣，更新內部的資料庫，可以良好的客製化、增加準確度，但成本較高、要有良好的資料集，且須要有技術能力
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*HJqbHWpar5tR9TB7.png" alt="drawing" width="500"/>
 
-### Use case
-
+### ![Use case](https://www.projectpro.io/article/artificial-intelligence-project-ideas/461)
+1. Resume Parser AI Project
+2. 2. Fake News Detector Project in AI
+3. Translator App
+4. Instagram Spam Detection
+5. Object Detection System 
+6. Animal Species Prediction
+7. Pneumonia Detection with Python
+8. Teachable Machine
+9. Autocorrect Tool
+10. Fake Product Review Identification
+### Intermidiate Level project
+1. Price Comparison Application
+2. Ethnicity Detection Model
+3. Traffic Prediction
+4. Age Detection Model
+5. Image to Pencil Sketch App
+6. Hand Gesture Recognition Model 
+7. Text Generation Model
+8. Colour Detection
+9. Sign Language Recognition App with Python
+10. Detecting Violence in Videos
 
 ## 2. Fine-tune and model evaluation: how to fine tune and evalute
 ## 3. data preprocessing 
