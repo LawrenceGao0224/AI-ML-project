@@ -20,7 +20,6 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 透過encoder將輸入的圖片壓縮到很小，稱作Bottleneck，再透過decoder將圖片還原成原本大小，其學習目標是讓原始跟重建後的圖片一模一樣。
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*PyUPcuHK9Nf_1X1f.png" alt="VAE" width="500"/>
 
-
 不過其實VAE學習的其實就是假設其為高斯分布將其學習去做平均值跟標準差，所以產生出來得圖片看起來尚可而已。事實上沒錯，其實VAE產生出來的圖片相較於GAN來說模糊很多，但是也因為VAE認真去學這個標準差和平均值，所以我們可以透過調控ϵ，生成特定的圖片。
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*VNhJVipZkRMVkY1r8LR9wg.png" alt="VAE生圖" width="500"/>
 
@@ -53,10 +52,17 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 6. Scikit-learn
 7. AWS, Terraform, GitHub
 
-### Where can we use it?
-1. RAG
-2. Prompt engineering
-3. Fine-tuning
+### Most widely use Techniques?
+1. RAG(Retrieval-Augmented Generation): 大型語言模型無法針對所需特定克制內容作回應，RAG可以有效地將所需資料成為輸入來源，當使用者針對該資料做出提問，LLM可以適當的回應其問題
+如: PDFReader
+![RAG](https://s4.tenten.co/learning/content/images/2024/06/rag-preprocessing-customized-mllms.png) 
+3. Prompt engineering: 下簡單的指令讓LLM回答所需問題，簡單使用、符合成本效益，但是回答不一致、客製化有限、跟模型相依性大
+如: AI girlfirend
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*Luk7ON3ZAv_ja9yO.png" alt="drawing" width="500"/>
+4. Fine-tuning: 讓LLM學習新的或特定領域知識，就像更新手機APP一樣，更新內部的資料庫，可以良好的客製化、增加準確度，但成本較高、要有良好的資料集，且須要有技術能力
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*HJqbHWpar5tR9TB7.png" alt="drawing" width="500"/>
+
+### Use case
 
 
 ## 2. Fine-tune and model evaluation: how to fine tune and evalute
