@@ -8,15 +8,15 @@ It is used for generating some new contents or creative stories even images. Tha
 
 ### How to achieve (algorithms)?
 #### Task Specific Gen AI
-1. Generative Adversarial Network(GAN)
+1. Generative Adversarial Network(GAN): 
 一個(generator)負責生成資料，一個(discriminator)負責判別輸入進來的是真實資料還是假資料，如下圖: (來源:AWS-GAN)
 <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/11/11/ML-6149-image025.jpg" alt="GAN" width="500"/>
 
-3. Diffusion model
+2. Diffusion model: 
 Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後學習透過反轉這個加noising的過程來恢復數據。訓練後，我們可以透過將隨機抽樣的noise通過學習得到的denoising過程來生成數據。
 <img src="https://lilianweng.github.io/posts/2021-07-11-diffusion-models/DDPM.png" alt="diffusion" width="500"/>
 
-4. Variational Autoencoder(VAE)
+3. Variational Autoencoder(VAE): 
 透過encoder將輸入的圖片壓縮到很小，稱作Bottleneck，再透過decoder將圖片還原成原本大小，其學習目標是讓原始跟重建後的圖片一模一樣。
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*PyUPcuHK9Nf_1X1f.png" alt="VAE" width="500"/>
 
