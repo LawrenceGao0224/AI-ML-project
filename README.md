@@ -84,7 +84,7 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 8. Colour Detection
 9. Sign Language Recognition App with Python
 10. Detecting Violence in Videos
-
+### Top 10 AI Frameworks and Libraries
 | Category | Frameworks/Libraries |
 | :---: | :---: |
 | Traditional Machine Learning | Scikit-learn, XGBoost, LightGBM |
