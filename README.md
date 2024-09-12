@@ -85,6 +85,14 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 9. Sign Language Recognition App with Python
 10. Detecting Violence in Videos
 
+| Category | Frameworks/Libraries |
+| :---: | :---: |
+| Traditional Machine Learning | Scikit-learn, XGBoost, LightGBM |
+| Deep Learning | TensorFlow, PyTorch |
+| Computer Vision | OpenCV |
+| Natural Language Processing | Hugging Face |
+| Large Language Models | OpenAI, LangChain, LlamaIndex |
+
 ## 2. Fine-tune and model evaluation: how to fine tune and evalute
 ## 3. data preprocessing 
 one-hot encoding, label data normalize
