@@ -15,3 +15,12 @@
 - Learning Rate
 - Learning rate scheduler
 - Optimizer hyperparameters
+
+
+# Technique
+## Quantization
+目的是減少並加速運算資源，將64bit的位元quantize成16bits，
+
+## LoRA
+透過Matrix decomposition的方式，將參數縮減
+<img width="834" alt="螢幕擷取畫面 2024-09-17 105235" src="https://github.com/user-attachments/assets/247d8a82-92b0-4db0-a5a8-afefdfbdd6dd">
