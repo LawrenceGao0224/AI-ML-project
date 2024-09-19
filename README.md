@@ -94,6 +94,8 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 | Large Language Models | OpenAI, LangChain, LlamaIndex |
 
 ## 2. Fine-tune and model evaluation: how to fine tune and evalute
+Please see detail explaination in fine tuning folder.
+
 ## 3. data preprocessing 
 one-hot encoding, label data normalize
 
@@ -101,6 +103,8 @@ one-hot encoding, label data normalize
 ## 5. BQML(GCP big query ML)
 ## 6. Computer vision
 ## 7. GPUs
+See detailed in GPU folder.
+
 ## 8. Speech recongnition
 ## 9. Search recommendation
 ## 10. Advertising
