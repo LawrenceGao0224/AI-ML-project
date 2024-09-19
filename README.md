@@ -103,6 +103,8 @@ one-hot encoding, label data normalize
 ## 5. BQML(GCP big query ML)
 ## 6. Computer vision
 ## 7. GPUs
+See detailed in GPU folder.
+
 ## 8. Speech recongnition
 ## 9. Search recommendation
 ## 10. Advertising
