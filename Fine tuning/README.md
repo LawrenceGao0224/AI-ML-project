@@ -1,3 +1,8 @@
+# Fine-tuning Methods
+1. 基於指令的微調 (Prompt Tuning)
+2. 單任務微調
+3. 參數高效微調 (PEFT)
+
 # Preparation of your data
 1. Collenct instruction-response pairs
 2. Concatenate pairs
@@ -17,7 +22,7 @@
 - Optimizer hyperparameters
 
 
-# Techniques
+# 縮減運算量與記憶體 Techniques
 ## Quantization
 目的是減少並加速運算資源，將64bit的位元quantize成16bits，
 
