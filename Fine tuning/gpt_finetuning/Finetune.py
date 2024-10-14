@@ -4,7 +4,6 @@ from pprint import pprint
 from dotenv import load_dotenv
 
 load_dotenv()
-open_ai_api_key= "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"
 openai.api_key = open_ai_api_key
 
 def file_upload(filename, purpose='fine-tune'):
