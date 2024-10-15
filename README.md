@@ -64,7 +64,7 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 
 ### [Use case](https://www.projectpro.io/article/artificial-intelligence-project-ideas/461)
 1. Resume Parser AI Project
-2. 2. Fake News Detector Project in AI
+2. Fake News Detector Project in AI
 3. Translator App
 4. Instagram Spam Detection
 5. Object Detection System 
@@ -93,6 +93,8 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 | Natural Language Processing | Hugging Face |
 | Large Language Models | OpenAI, LangChain, LlamaIndex |
 
+---
+
 ## 2. Fine-tune and model evaluation: how to fine tune and evalute
 Please see detail explaination in fine tuning folder.
 
@@ -114,8 +116,12 @@ Please see detail explaination in fine tuning folder.
 
 3. Bayesian Optimization: This method uses a probabilistic model to predict the performance of different hyperparameters and selects the best based on these predictions. It is more efficient than grid search and can handle large parameter spaces with fewer resources. However, it is more complex to set up and may be less reliable in identifying the optimal set of hyperparameters than grid search.
 
+---
+
 ## 3. data preprocessing 
 one-hot encoding, label data normalize
+
+---
 
 ## 4. feature engineering
 ## 5. BQML(GCP big query ML)
