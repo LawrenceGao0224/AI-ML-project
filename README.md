@@ -96,6 +96,24 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 ## 2. Fine-tune and model evaluation: how to fine tune and evalute
 Please see detail explaination in fine tuning folder.
 
+### 2.1 Hyperparameter tuning
+1. Model Size
+2. Number of Epochs: The number of epochs determines how often the model processes the entire dataset. More epochs can improve the model's understanding but can lead to overfitting if too many are used.Conversely, too few epochs can result in underfitting.
+3. Learning Rate
+4. Batch Size: the number of training samples the model process at once
+5. Max Output Token (Stop Sequence)
+** 6. Decoding Type **: There are two main types: greedy decoding, which selects the most probable token at each step, and sampling decoding, which introduces randomness by choosing from a subset of probable tokens. Sampling can create more varied and creative outputs but increases the risk of nonsensical responses.
+7. Top-k and Top-p Sampling: For example, if top-k is set to 5, the model will select from the five most probable tokens. This helps ensure variability while maintaining a focus on likely options.
+8. Temperature: value between "0 to 2", From stubborn to creative
+9. Frequency and Presence Penalties: The frequency penalty reduces the probabilities of tokens that have been recently used, making them less likely to be repeated. This helps produce a more diverse output by preventing repetition. The presence penalty, applied to tokens that have appeared at least once, works similarly but is proportional to the frequency of token usage. While the frequency penalty discourages repetition, the presence penalty encourages a wider variety of tokens.
+
+#### The three most common methods for automated hyperparameter tuning:
+1. Random Search: This method randomly selects and evaluates combinations of hyperparameters from a specified range of values. It is simple and efficient, capable of exploring a large parameter space. However, its simplicity means it may not find the optimal combination and can be computationally expensive.
+
+2. Grid Search: This method systematically searches through all possible combinations of hyperparameters from a given range. While resource-intensive, like random search, it ensures a more systematic approach to finding the optimal set of hyperparameters.
+
+3. Bayesian Optimization: This method uses a probabilistic model to predict the performance of different hyperparameters and selects the best based on these predictions. It is more efficient than grid search and can handle large parameter spaces with fewer resources. However, it is more complex to set up and may be less reliable in identifying the optimal set of hyperparameters than grid search.
+
 ## 3. data preprocessing 
 one-hot encoding, label data normalize
 
