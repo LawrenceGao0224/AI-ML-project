@@ -86,9 +86,9 @@ for page_number, page_text in enumerate(text_data):
 
 
 # Save into json file----------------------------------------------------------------------------------------------------------------------------
-file_path = "data.json"
+file_path = "C:/Users/kaosh/Desktop/All_project/Side-project-ML/github/Data_preparation/data.json"
 
 with open(file_path, "w") as file:
     for item in QA_list:
-      json_line = json.dumps(item)
+      json_line = json.dump(item)
       file.write(json_line+ "\n")
