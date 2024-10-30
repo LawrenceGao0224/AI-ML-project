@@ -4,7 +4,7 @@ import json
 
 # Replace 'your-ollama-url' with your Ollama server URL
 OLLAMA_URL = 'http://127.0.0.1:11434/api/generate'
-model = 'llama3.1:latest' # TODO: update this for whatever model you wish to use
+model = 'llama2:latest' # TODO: update this for whatever model you wish to use
 
 def get_text(my_file):
     # reading the file 
