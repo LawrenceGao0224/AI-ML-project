@@ -1,10 +1,7 @@
 import json
 import boto3
 
-bedrock_runtime = boto3.client('bedrock-runtime', 
-                               region_name='ap-northeast-1', 
-                               aws_access_key_id="...",
-                               aws_secret_access_key= "...")
+bedrock_runtime = boto3.client(service_name='bedrock-runtime')
 
 prompt = "Who is Elon Musk"
 
@@ -31,6 +28,6 @@ kwargs = {
 
 response = bedrock_runtime.invoke_model(**kwargs)
 
-body = json.loads(response['body'].read())
-
-print(body['content'])
+body = json.loads(response.get('body').read())
+respones_text = body['content'][0]['text']
+print(respones_text)
