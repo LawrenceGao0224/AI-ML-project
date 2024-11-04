@@ -1,8 +1,9 @@
 import autogen
 
 def main():
-    config_list = autogen.config_list_from_json(
-        env_or_file = "CONFIG_LIST.json"
+    onfig_list=autogen.config_list_from_dotenv(
+        ".env",
+        {"gpt-3.5-turbo": "OPENAI_API_KEY"}
     )
 
     assistant = autogen.AssistantAgent(
@@ -21,7 +22,7 @@ def main():
         }
     )
 
-    user_proxy.initiate_chat(assistant, message="Plot a chart of Tesla and Meta stock price change.")
+    user_proxy.initiate_chat(assistant, message="Give me a summary of the article: https://microsoft.github.io/autogen/0.2/blog/2024/03/03/AutoGen-Update/")
 
 if __name__ == "__main__":
     main()
