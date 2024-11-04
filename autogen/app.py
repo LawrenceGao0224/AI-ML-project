@@ -1,11 +1,8 @@
 import autogen
 
-config_list = [
-    {
-        'model': "gpt-3.5-turbo",
-        'api_key': "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"
-    }
-]
+config_list = autogen.config_list_from_json(
+        env_or_file = "CONFIG_LIST.json"
+    )
 
 llm_config = {
     "request_timeout" : 600,
