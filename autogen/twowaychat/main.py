@@ -1,7 +1,7 @@
 import autogen
 
 def main():
-    onfig_list=autogen.config_list_from_dotenv(
+    config_list=autogen.config_list_from_dotenv(
         ".env",
         {"gpt-3.5-turbo": "OPENAI_API_KEY"}
     )
