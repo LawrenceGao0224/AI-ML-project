@@ -3,7 +3,7 @@
 千古名言:"Garbage in, Garbage out"，不論是在LLM的建模或是日後採用預訓練模型fine-tuning，都需要資料是高品質且收集企業內特定任務、場景的instruction tuning dataset是開始的第一步，資料的好壞決定日後訓練出的模型好壞。
 
 
-# (Scaling Law)[https://axk51013.medium.com/llm%E5%B0%88%E6%AC%84-%E8%BF%8E%E6%8E%A52024%E5%B9%B4-10%E5%80%8B%E5%BF%85%E9%A0%88%E8%A6%81%E6%90%9E%E6%87%82%E7%9A%84llm%E6%A6%82%E5%BF%B5-1-scaling-law-5f6a409d35c5]
+# [Scaling Law](https://axk51013.medium.com/llm%E5%B0%88%E6%AC%84-%E8%BF%8E%E6%8E%A52024%E5%B9%B4-10%E5%80%8B%E5%BF%85%E9%A0%88%E8%A6%81%E6%90%9E%E6%87%82%E7%9A%84llm%E6%A6%82%E5%BF%B5-1-scaling-law-5f6a409d35c5)
 
 模型性能可藉由參數量、Dataset大小、計算量預測
 
@@ -33,9 +33,9 @@ Scaling也是一個複雜的過程，期至少包含三個階段:
 
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*iwLBNOIlfyxIki2kcc673Q.png" alt="drawing" width="500"/>
 
-# (Data Quality)[https://axk51013.medium.com/llm%E5%B0%88%E6%AC%84-%E8%BF%8E%E6%8E%A52024%E5%B9%B4-10%E5%80%8B%E5%BF%85%E9%A0%88%E8%A6%81%E6%90%9E%E6%87%82%E7%9A%84llm%E6%A6%82%E5%BF%B5-2-good-data-is-all-you-need-1e9e760c016a]
+# [Data Quality](https://axk51013.medium.com/llm%E5%B0%88%E6%AC%84-%E8%BF%8E%E6%8E%A52024%E5%B9%B4-10%E5%80%8B%E5%BF%85%E9%A0%88%E8%A6%81%E6%90%9E%E6%87%82%E7%9A%84llm%E6%A6%82%E5%BF%B5-2-good-data-is-all-you-need-1e9e760c016a)
 
-# (instruction tuning dataset)[https://axk51013.medium.com/llm-10%E5%A4%A7%E8%A7%80%E5%BF%B5-3-%E5%BF%AB%E9%80%9F%E5%BB%BA%E9%80%A0%E8%87%AA%E5%B7%B1%E5%80%8Binstruction-tuning-dataset-ab391eba61e5]
+# [instruction tuning dataset](https://axk51013.medium.com/llm-10%E5%A4%A7%E8%A7%80%E5%BF%B5-3-%E5%BF%AB%E9%80%9F%E5%BB%BA%E9%80%A0%E8%87%AA%E5%B7%B1%E5%80%8Binstruction-tuning-dataset-ab391eba61e5)
 
 Discuss: 如何finetune出一個公司內部解決特定任務的LLM?
 
