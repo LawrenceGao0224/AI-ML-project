@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import numpy as np
 
 def get_clean_data():
-    data = pd.read_csv("data.csv")
+    data = pd.read_csv("streamlit_breast_cancer/data.csv")
     
     data = data.drop(["id", "Unnamed: 32"], axis = 1)
     data["diagnosis"] = data["diagnosis"].map({'M': 1, 'B': 0})
@@ -134,8 +134,8 @@ def get_radar(input_data):
     return fig
 
 def add_prediction(input_data):
-    model = pickle.load(open("model.pkl", "rb"))
-    scaler = pickle.load(open("scaler.pkl", "rb"))
+    model = pickle.load(open("streamlit_breast_cancer/model.pkl", "rb"))
+    scaler = pickle.load(open("streamlit_breast_cancer/scaler.pkl", "rb"))
     input_array = np.array(list(input_data.values())).reshape(1, -1)
   
     input_array_scaled = scaler.transform(input_array)
