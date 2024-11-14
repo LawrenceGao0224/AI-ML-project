@@ -31,7 +31,7 @@ def create_model(data):
 
 
 def get_clean_data():
-    data = pd.read_csv("C:/Users/kaosh/Desktop/All_project/Side-project-ML/github/streamlit_breast_cancer/data.csv")
+    data = pd.read_csv("data.csv")
     
     data = data.drop(["id", "Unnamed: 32"], axis = 1)
     data["diagnosis"] = data["diagnosis"].map({'M': 1, 'B': 0})
@@ -47,9 +47,9 @@ def main():
 
     # Export model
 
-    with open('C:/Users/kaosh/Desktop/All_project/Side-project-ML/github/streamlit_breast_cancer/model.pkl', 'wb') as f:
+    with open('model.pkl', 'wb') as f:
         pickle.dump(model, f)
-    with open('C:/Users/kaosh/Desktop/All_project/Side-project-ML/github/streamlit_breast_cancer/scaler.pkl', 'wb') as f:
+    with open('scaler.pkl', 'wb') as f:
         pickle.dump(scaler, f)
 
     #evaluate(model)
