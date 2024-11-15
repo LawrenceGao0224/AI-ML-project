@@ -95,6 +95,20 @@ Diffusion Models通過連續添加Gaussian noise來破壞訓練數據，然後�
 
 ---
 
+### Scikit Learn vs. Tensor flow vs. Pytorch
+
+| **Criteria**             | **Scikit-learn**                                                                                     | **TensorFlow**                                                                                                      | **PyTorch**                                                                                                       |
+|--------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **Primary Focus**        | Focused on traditional machine learning algorithms (both supervised and unsupervised)               | Primarily used for deep learning, but also supports traditional ML algorithms                                       | Highly favored for deep learning and AI research due to its dynamic computation graph                             |
+| **Ease of Use**          | Known for its simple and user-friendly API, ideal for beginners                                      | Has a steeper learning curve but offers a high-level API (Keras) for simplicity                                     | Praised for its easy-to-understand and pythonic syntax, making it popular among researchers                       |
+| **Community and Ecosystem** | Strong community support focused on classical ML                                                | Large and active community with vast resources and tools for various applications                                   | Growing and engaged community, particularly in the research domain                                                |
+| **Performance**          | Efficient for small to medium datasets but not optimized for performance on larger datasets or GPU acceleration | High performance on large datasets and support for GPU acceleration                                                | Offers competitive performance with TensorFlow and efficient GPU acceleration                                    |
+| **Deployment**           | Simple deployment for traditional ML models but lacks mobile and embedded deployment options         | Offers robust options for deployment, including TensorFlow Serving, TensorFlow Lite (for mobile), and TensorFlow.js (for browser) | Supports ONNX for deploying models across various frameworks; improved deployment capabilities with TorchServe |
+| **Use Cases**            | Ideal for data analysis, exploration, and traditional ML tasks where neural networks are not necessary | Suited for production-level deep learning applications and neural network-based solutions                           | Preferred for research, experimentation, and development of deep learning models                                 |
+| **Visualization**        | Limited visualization features but can be used with Matplotlib, Seaborn, etc.                         | Integrated with TensorBoard for visualization of model training and performance                                     | Can use TensorBoard and other visualization libraries, but integration is not as seamless as TensorFlow’s        |
+
+---
+
 ## 2. Fine-tune and model evaluation: how to fine tune and evalute
 Please see detail explaination in fine tuning folder.
 
