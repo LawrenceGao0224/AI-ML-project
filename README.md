@@ -133,11 +133,44 @@ Please see detail explaination in fine tuning folder.
 ---
 
 ## 3. data preprocessing 
-one-hot encoding, label data normalize
+
+Demo Link : [Click me](https://github.com/LawrenceGao0224/AI-ML-project/tree/main/Data_preparation)
+
+3 ways to get training data:
+1. From existing data
+2. Manually curate datasets
+3. [Synthetic data](https://huggingface.co/blog/synthetic-data-generator?_sm_vck=H4jVfQHT10n4jH4QJ5Qvf4V0fMptWLHJWvDH6t6TsZSfQrqnHf0s)
 
 ---
 
-## 4. feature engineering
+## 4. Feature Engineering
+將一班的raw data轉換成有特徵資料的整個過程，基本上是一種手工藝活，講究創造力。
+有幾種常見方法:
+1. Missing Value imputation
+2. Outliers Detection
+3. Duplicate Entries Removal
+
+### Feature Scaling
+1. Standardization
+2. Normalization
+
+### Feature Transformation
+1. Rounding
+2. Log Transformation
+3. Binarization
+4. Binning
+5. Integer Encoding (Label encoding)
+6. One-hot Encoding
+7. Bin-counting
+8. LabelCount Encoding
+9. Feature Hashing
+10. Mean Encoding
+11. Category Embedding
+
+Ref: https://vinta.ws/code/feature-engineering.html
+
+---
+
 ## 5. BQML(GCP big query ML)
 ## 6. Computer vision
 ## 7. GPUs
