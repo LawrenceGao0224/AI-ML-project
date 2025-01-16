@@ -11,11 +11,11 @@ from langchain_openai import OpenAI
 
 load_dotenv()
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
-sm_ds_OAI = create_pandas_dataframe_agent(
+ds_assist = create_pandas_dataframe_agent(
     llm,
     document,
     allow_dangerous_code=True,
     verbose=True
 )
 
-sm_ds_OAI.invoke("Analyze this data, and write a brief explanation around 100 words.")
+ds_assist.invoke("Analyze this data, and write a brief explanation around 100 words.")
