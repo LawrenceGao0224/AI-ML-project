@@ -2,3 +2,5 @@ langchain
 langchain_experimental
 langchain-openai
 tabulate
+python-dotenv
+pandas
