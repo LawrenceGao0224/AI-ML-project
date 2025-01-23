@@ -4,14 +4,15 @@ warnings.filterwarnings('ignore')
 from crewai_tools import SerperDevTool, ScrapeWebsiteTool, WebsiteSearchTool
 from dotenv import load_dotenv, find_dotenv
 
+load_dotenv()
 # load tools
 serper_search_tool = SerperDevTool()
 scrap_tool = ScrapeWebsiteTool()
 website_search_tool = WebsiteSearchTool()
 
-from langchain_community.llms import Ollama
+from langchain_ollama import OllamaLLM
 
-llm = Ollama(model="llama3")
+llm = OllamaLLM(model="gpt-3.5-turbo")
 
 from crewai import Agent, Task, Crew
 from crewai.process import Process
