@@ -173,6 +173,15 @@ Ref: https://vinta.ws/code/feature-engineering.html
 
 ## 5. BQML(GCP big query ML)
 ## 6. Computer vision
+NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
+```
+import numpy as np
+```
+***MATPLOTLIB -- RGB***
+***OPENCV     -- BGR***
+
+
+
 ## 7. GPUs
 See detailed in GPU folder.
 
