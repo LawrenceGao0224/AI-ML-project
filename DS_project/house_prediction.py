@@ -29,6 +29,7 @@ def load_data(uploaded_file=None):
 # File upload
 uploaded_file = st.file_uploader("Upload your dataset (CSV)", type=["csv"])
 data = load_data(uploaded_file)
+data = data.dropna(axis=0, how='any')
 
 # Show data preview
 if st.checkbox('Show raw data'):
