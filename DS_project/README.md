@@ -7,3 +7,13 @@ Features Used:
 - Dataset: https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
 
 ---
+
+# 2. Personal Financial Prediction
+Model Information
+Algorithm: Linear Regression
+Features Used:
+- Numerical Features: Month
+- Categorical Features: Year
+- Dataset: my own accounting excel
+
+---
